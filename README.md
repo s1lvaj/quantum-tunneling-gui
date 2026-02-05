@@ -6,7 +6,7 @@ In this repository, we built a custom interface to communicate with IBM's quantu
 
 While quantum computing, at the time of writing, is still considered a "mystery" by many, there are several tools available that allow anyone to explore this world, even if they know nothing of quantum mechanics, or even of general physics. So here we present a very minimalist code to show how any person can start this journey to create interesting projects.
 
-# Quantum Tunneling Simulation
+## Quantum Tunneling Simulation
 
 The project here presented allows the user to simulate a particle passing through a barrier, where the probability is calculated in a quantum computer, emmulating quantum tunneling effects. This program is activated by running `GUI.py`.
 

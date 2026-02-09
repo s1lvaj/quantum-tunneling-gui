@@ -13,7 +13,7 @@ class MainWindow(QtWidgets.QMainWindow):
     def __init__(self):
         super().__init__()
         uic.loadUi(
-            os.path.dirname(__file__) + "//widget.ui",
+            os.path.join(os.path.dirname(__file__), "widget.ui"),
             self,
         )
 

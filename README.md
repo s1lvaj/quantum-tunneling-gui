@@ -10,7 +10,7 @@ While quantum computing, at the time of writing, is still considered a "mystery"
 
 The project here presented allows the user to simulate a particle passing through a barrier, where the probability is calculated in a quantum computer, emmulating quantum tunneling effects. This program is activated by running `GUI.py`.
 
-<img src="./doc/GUI.png" width="750">
+<img src="./docs/GUI.png" width="750">
 
 The graphical user interface, as presented in the image above, has 4 inputs:
 - Your IBM API key, which you need to go get in your IBM Qiskit account, if you still don't have one.
@@ -22,7 +22,7 @@ We assume we have a laser shooting that amount of particles. Their velocity is a
 
 Besides the `GUI.py`, which the user has to run to get the custom interface, inside the folder `circuits`, one can find the needed code to make this work, namely, `circuit_layout.py`, where the basic quantum gates are presented, as well as the opportunity to create simple systems and "oracles" (black boxes) with them, `run_circuit.py`, where we define how we call Qiskit's backend and run the simulation, and `tunneling.py`, where we combine the previous two in a simple game to emmulate tunneling effects.
 
-Documentation from the Faculty of Sciences of University of Porto (in portuguese) can be seen in the folder `doc`. More information can be seen on qiskit's official textbook: https://qiskit.org/textbook/preface.html or in their youtube channel.
+Documentation from the Faculty of Sciences of University of Porto (in portuguese) can be seen in the folder `docs`. More information can be seen on qiskit's official textbook: https://qiskit.org/textbook/preface.html or in their youtube channel.
 
 ## How to Use
 
